@@ -10,6 +10,7 @@ set autoread                    " Auto re-load a file if it has been edited exte
 set ignorecase                  " Ignore case when searching
 set smartcase                   " When combined with ignorecase, will only respect case when caps are used.
 set nowrap                      " Prevent vim from wrapping text
+set backupdir=~/.vim/tmp        " Sets the backup directory for swap files. This prevents swap files from being checked into our repositories.
 syntax on                       " Turn on syntax highlighting
 colorscheme solarized           " Set the color scheme to solarized
  
